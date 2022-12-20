@@ -1,0 +1,42 @@
+.section {
+  background-color: aliceblue;
+  max-width: 45rem;
+  margin: 1rem auto;
+  padding: 2rem;
+}
+.radius {
+  border-radius: 1rem;
+}
+.section label {
+  display: block;
+  font-weight: bold;
+}
+
+.section input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgb(112, 112, 112);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+form button {
+  margin-top: 1rem;
+}
+
+.center {
+  align-self: center;
+}
+
+.openingText {
+  height: 7rem;
+  padding: 1rem;
+}
+
+.FetchComponent {
+  display: flex;
+  justify-content: center;
+}
